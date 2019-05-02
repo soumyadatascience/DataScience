@@ -17,8 +17,6 @@ Compute the sum along axis . Then, print the product of that sum.
 
 import numpy as np
 N,M = list(map(int,input().split()))
-A=list()
-B=list()
 for _ in range(N):
     A.append(list(map(int,input().split())))
 A = np.array(A)
